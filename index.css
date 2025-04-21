@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    height: max-content;
+    margin: 20px auto;
+
+}
+.ul{
+    width: 100%;
+    height: 40px;
+    border: 1px solid transparent;
+    display: flex;
+}
+h1{
+    text-align: center;
+}
+.ul input {
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+}
+.ul select{
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+}
+select{
+    font-size: 20px;
+}
+.users{
+    margin-top: 40px;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.userItem{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0.5px rgb(156, 156, 156);
+}
+.users img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition: .2s all ease;
+}
+.userItem button{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(0, 102, 255);
+    border: transparent;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.loadUsers{
+    width: 150px;
+    height: 40px;
+    border: 1px solid;
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+.butun{
+    margin: 50px 0 ;
+    width: 100%;
+    text-align: center;
+}
+.userItem i {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 20px;
+    color: rgb(50, 155, 50);
+    display: none;
+}
+.userItem img:hover{
+    transform: scale(1.1);
+} 
